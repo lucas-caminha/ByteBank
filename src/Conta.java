@@ -1,11 +1,12 @@
 public class Conta {
 
     // Atributos.
-    
     private double saldo;
-    private int agencia = 1;
+    private int agencia;
     private int numero;
     private Cliente titular;
+
+    private static int totalContas;
 
     // Constructors.
     public Conta(double saldo, int agencia, int numero, Cliente titular) {
@@ -13,6 +14,7 @@ public class Conta {
         this.agencia = agencia;
         this.numero = numero;
         this.titular = titular;
+        Conta.totalContas++;
     }
 
     public Conta() {
@@ -49,6 +51,10 @@ public class Conta {
 
     public void setTitular(Cliente titular) {
         this.titular = titular;
+    }
+
+    public static int getTotalContas() {
+        return totalContas;
     }
 
     // Deposita o valor na conta
