@@ -4,12 +4,12 @@ public class Conta {
     private double saldo;
     private int agencia;
     private int numero;
-    private Cliente titular;
+    private Pessoa titular;
 
     private static int totalContas;
 
     // Constructors.
-    public Conta(double saldo, int agencia, int numero, Cliente titular) {
+    public Conta(double saldo, int agencia, int numero, Pessoa titular) {
         this.saldo = saldo;
         this.agencia = agencia;
         this.numero = numero;
@@ -45,11 +45,11 @@ public class Conta {
         this.numero = numero;
     }
 
-    public Cliente getTitular() {
+    public Pessoa getTitular() {
         return titular;
     }
 
-    public void setTitular(Cliente titular) {
+    public void setTitular(Pessoa titular) {
         this.titular = titular;
     }
 

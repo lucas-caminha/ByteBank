@@ -1,51 +1,23 @@
-public class Cliente {
+public class Cliente extends Pessoa {
 
-    private String nome;
-    private String cpf;
-    private int idade;
-    private Endereco endereco;
+    private int numeroIdentificador;
 
-    // Constructors.
-    public Cliente(String nome, String cpf, int idade, Endereco endereco) {
-        this.nome = nome;
-        this.cpf = cpf;
-        this.idade = idade;
-        this.endereco = endereco;
+    // Constructor
+    public Cliente(String nome, String cpf, int idade, Endereco endereco, int numeroIdentificador) {
+        super(nome, cpf, idade, endereco);
+        this.numeroIdentificador = numeroIdentificador;
     }
 
-    public Cliente() {
+    public Cliente(int numeroIdentificador) {
+        this.numeroIdentificador = numeroIdentificador;
     }
 
-    // Getters and Setters.
-    public String getNome() {
-        return nome;
+    // Getters and Setters
+    public int getNumeroIdentificador() {
+        return numeroIdentificador;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getCpf() {
-        return cpf;
-    }
-
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
-    }
-
-    public int getIdade() {
-        return idade;
-    }
-
-    public void setIdade(int idade) {
-        this.idade = idade;
-    }
-
-    public Endereco getEndereco() {
-        return endereco;
-    }
-
-    public void setEndereco(Endereco endereco) {
-        this.endereco = endereco;
+    public void setNumeroIdentificador(int numeroIdentificador) {
+        this.numeroIdentificador = numeroIdentificador;
     }
 }
