@@ -1,4 +1,4 @@
-public class Funcionario extends Pessoa{
+public abstract class Funcionario extends Pessoa{
 
     private double salario;
 
@@ -21,10 +21,7 @@ public class Funcionario extends Pessoa{
         this.salario = salario;
     }
 
-    // Metods
-
     // Bonificação.
-    public double getBonificacao(){
-        return this.salario * 0.05;
-    }
+    public abstract double getBonificacao();
+
 }

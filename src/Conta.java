@@ -1,7 +1,7 @@
-public class Conta {
+public abstract class Conta {
 
     // Atributos.
-    private double saldo;
+    protected double saldo;
     private int agencia;
     private int numero;
     private Pessoa titular;
@@ -58,9 +58,7 @@ public class Conta {
     }
 
     // Deposita o valor na conta
-    public void deposita(double valor){
-        this.saldo += valor;
-    }
+    public abstract void deposita(double valor);
 
     // Saca o valor verificando se o saldo é maior que o valor solicitado.
     public boolean saca(double valor){
