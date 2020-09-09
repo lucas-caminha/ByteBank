@@ -1,4 +1,6 @@
-public abstract class Funcionario extends Pessoa{
+package br.com.bytebank.banco.model;
+
+public abstract class Funcionario extends Pessoa {
 
     private double salario;
 

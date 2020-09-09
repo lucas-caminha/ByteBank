@@ -1,3 +1,5 @@
+package br.com.bytebank.banco.teste;
+
 public class AutenticacaoUtil {
 
     private int senha;

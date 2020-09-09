@@ -1,3 +1,7 @@
+package br.com.bytebank.banco.teste;
+
+import br.com.bytebank.banco.model.Funcionario;
+
 public class ControleBonificacao {
 
     private double soma;

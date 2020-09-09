@@ -1,4 +1,6 @@
-public class ContaPoupanca extends Conta{
+package br.com.bytebank.banco.model;
+
+public class ContaPoupanca extends Conta {
 
 
 

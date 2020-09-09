@@ -1,3 +1,8 @@
+package br.com.bytebank.banco.model;
+
+
+import br.com.bytebank.banco.teste.AutenticacaoUtil;
+
 public class Cliente extends Pessoa implements Autenticavel {
 
     private int numeroIdentificador;

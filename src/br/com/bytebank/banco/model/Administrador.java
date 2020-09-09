@@ -1,4 +1,9 @@
-public class Administrador extends Funcionario implements Autenticavel{
+package br.com.bytebank.banco.model;
+
+import br.com.bytebank.banco.teste.AutenticacaoUtil;
+
+
+public class Administrador extends Funcionario implements Autenticavel {
 
     private AutenticacaoUtil autenticador;
 

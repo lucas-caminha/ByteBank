@@ -1,4 +1,8 @@
-public class CalculadorDeImposto implements Tributavel{
+package br.com.bytebank.banco.teste;
+
+import br.com.bytebank.banco.model.Tributavel;
+
+public class CalculadorDeImposto implements Tributavel {
 
     private double totalImposto;
 

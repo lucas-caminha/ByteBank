@@ -14,6 +14,16 @@ Assuntos Revisados em Herança e Interface:
 * Classes e métodos abstratos
 * Interfaces
 
+Revisado Exception:
+* Tratamento de Exceções
+* Lançamento de Exceções
+* Checked e UnChecked
+* Aplicando Exceções
+* Finally e try with resources
+
+Revisado Pacotes e Java.Lang
+
+
 
 
  

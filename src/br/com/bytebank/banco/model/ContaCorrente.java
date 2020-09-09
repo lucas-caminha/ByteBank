@@ -1,4 +1,6 @@
-public class ContaCorrente extends Conta implements Tributavel{
+package br.com.bytebank.banco.model;
+
+public class ContaCorrente extends Conta implements Tributavel {
 
 
     public ContaCorrente(double saldo, int agencia, int numero, Pessoa titular) {

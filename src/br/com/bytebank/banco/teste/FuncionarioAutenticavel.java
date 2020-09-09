@@ -1,4 +1,9 @@
-public abstract class FuncionarioAutenticavel extends Funcionario{
+package br.com.bytebank.banco.teste;
+
+import br.com.bytebank.banco.model.Endereco;
+import br.com.bytebank.banco.model.Funcionario;
+
+public abstract class FuncionarioAutenticavel extends Funcionario {
 
     protected int senha;
 

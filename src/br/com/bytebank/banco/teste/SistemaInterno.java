@@ -1,3 +1,7 @@
+package br.com.bytebank.banco.teste;
+
+import br.com.bytebank.banco.model.Gerente;
+
 public class SistemaInterno {
 
     private int senha = 2222;
