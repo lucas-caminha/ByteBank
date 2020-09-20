@@ -1,7 +1,10 @@
 package br.com.bytebank.banco.model;
 
-
-import br.com.bytebank.banco.teste.AutenticacaoUtil;
+/**
+ * Classe que representa um cliente no ByteBank.
+ * @author Lucas Caminha
+ * @version 0.1
+ */
 
 public class Cliente extends Pessoa implements Autenticavel {
 

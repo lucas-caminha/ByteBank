@@ -1,4 +1,4 @@
-package br.com.bytebank.banco.teste;
+package br.com.bytebank.banco.model;
 
 import br.com.bytebank.banco.model.Endereco;
 import br.com.bytebank.banco.model.Funcionario;

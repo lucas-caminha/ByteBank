@@ -1,7 +1,5 @@
 package br.com.bytebank.banco.model;
 
-import br.com.bytebank.banco.teste.AutenticacaoUtil;
-
 public class Gerente extends Funcionario implements Autenticavel {
 
     private AutenticacaoUtil autenticador;

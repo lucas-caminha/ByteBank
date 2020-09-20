@@ -1,5 +1,12 @@
 package br.com.bytebank.banco.model;
 
+/**
+ * Classe representa a moldura de uma conta.
+ *
+ * @author Lucas Caminha
+ * @version 0.1
+ */
+
 public abstract class Conta {
 
     // Atributos.
@@ -62,7 +69,10 @@ public abstract class Conta {
     // Deposita o valor na conta
     public abstract void deposita(double valor);
 
-    // Saca o valor verificando se o saldo é maior que o valor solicitado.
+    /**
+     * @param valor
+     * @return
+     */
     public boolean saca(double valor){
         if(this.saldo >= valor){
             this.saldo -= valor;
